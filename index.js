@@ -432,8 +432,8 @@ async function help(remoteJid, sock, messageKey) {
       `1. *!tagAll* or *!!TagAll_Gir_Jantā* - Tag all members in the group.\n\n` +
       `2. *!tag* or *!Tag* - Tag all members in the group, excluding Suhani madam🫡.\n\n` +
       `3. *"Good morning"* or *"Good night"* - React with a flower emoji🌸.\n\n` +
-      `4. "*@Asterin041 Spam \"<text to spam>\" <number>*" - Tag me and provide a number and a message in double quotes to spam the group.\n\n` +
-      `5. "*Stop @Asterin041*" - Tag me and I will stop spamming only the person who initiated the spam can make it stop.`;
+      `4. "*@Sir Spam \"<text to spam>\" <number>*" - Tag me and provide a number and a message in double quotes to spam the group.\n\n` +
+      `5. "*Stop @Sir*" - Tag me and I will stop spamming only the person who initiated the spam can make it stop.`;
 
     const quotedMessage = {
       key: messageKey,

@@ -19,13 +19,13 @@ Asterin041 can assist with the following commands:
 
 ### Spam the Group:
 
-- **Command:** `@Asterin041 Spam "<text to spam>" <number>`
+- **Command:** `@Sir Spam "<text to spam>" <number>`
 - **Description:** Tag the bot and specify a message in double quotes, along with a number, to spam the group with the provided message.\n
 ![help](https://i.ibb.co/xHsVPn0/image.png)
 
 ### Stop Spam:
 
-- **Command:** `Stop @Asterin041`
+- **Command:** `Stop @Sir`
 - **Description:** The spam will stop only if the person who initiated the spam uses this command.
 
 ### Help:
