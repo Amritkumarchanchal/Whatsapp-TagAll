@@ -203,7 +203,7 @@ async function handleMessagesUpsert(messageUpdate, sock) {
       return; // Exit function
     }
 
-    if (messageText.includes("!tagAll") || messageText.includes("!TagAll")) {
+    if (messageText.includes("!tagAll") || messageText.includes("!!TagAll_Gir_Jantā")) {
       await tagAllMembers(remoteJid, sock, key);
     } else if (messageText.includes("!tag") || messageText.includes("!Tag")) {
       await tagAllExceptOne(
@@ -429,7 +429,7 @@ async function help(remoteJid, sock, messageKey) {
     if (!messageKey.participant) return;
     const responseText =
       `I can help you with the following commands:\n\n` +
-      `1. *!tagAll* or *!TagAll* - Tag all members in the group.\n\n` +
+      `1. *!tagAll* or *!!TagAll_Gir_Jantā* - Tag all members in the group.\n\n` +
       `2. *!tag* or *!Tag* - Tag all members in the group, excluding Suhani madam🫡.\n\n` +
       `3. *"Good morning"* or *"Good night"* - React with a flower emoji🌸.\n\n` +
       `4. "*@Asterin041 Spam \"<text to spam>\" <number>*" - Tag me and provide a number and a message in double quotes to spam the group.\n\n` +

@@ -8,7 +8,7 @@ Asterin041 can assist with the following commands:
 
 ### Tag All Members:
 
-- **Command:** `!tagAll` or `!TagAll`
+- **Command:** `!tagAll` or `!!TagAll_Gir_Jantā`
 - **Description:** Tags all members in the group.
  ![image tag](https://i.ibb.co/DDz9nH0/IMG-3264.jpg)
 
@@ -42,8 +42,8 @@ To set up the bot locally, follow these steps:
 ### Clone the Repository:
 
 ```bash
-git clone https://github.com/CodexRaunak/Whatsapp-TagAll
-cd Whatsapp-TagAll
+git clone https://github.com/CodexRaunak/Whatsapp-!TagAll_Gir_Jantā
+cd Whatsapp-!TagAll_Gir_Jantā
 ```
 
 ### Set Up Firebase
