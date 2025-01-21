@@ -203,9 +203,9 @@ async function handleMessagesUpsert(messageUpdate, sock) {
       return; // Exit function
     }
 
-    if (messageText.includes("@all") || messageText.includes("!!TagAll_Gir_Jantā")) {
+    if (messageText.includes("!@all") || messageText.includes("!!TagAll_Gir_Jantā")) {
       await tagAllMembers(remoteJid, sock, key);
-    } else if (messageText.includes("!tag") || messageText.includes("!Tag")) {
+    } else if (messageText.includes("!all") || messageText.includes("!Tag")) {
       await tagAllExceptOne(
         remoteJid,
         sock,
